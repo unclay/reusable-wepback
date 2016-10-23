@@ -1,0 +1,7 @@
+{
+  "name": "webpack-base",
+  "scripts": {
+    "dev": "node ./build/dev.js",
+    "build": "webpack --config ./webpack.prod.conf.js"
+  }
+}
