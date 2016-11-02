@@ -11,7 +11,7 @@ var app = express()
 
 var argv = require('yargs').argv
 
-var host = argv.host || '0.0.0.0'
+var host = argv.host || '127.0.0.1'
 var port = argv.port || 4000
 
 
